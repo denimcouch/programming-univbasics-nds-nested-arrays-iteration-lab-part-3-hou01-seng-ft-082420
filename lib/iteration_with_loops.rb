@@ -3,10 +3,10 @@ def join_nested_strings(src)
   
   row_i = 0
   while row_i < src.count do
-    string_element = String
+    string_element = ""
     element_i = 0 
     while element_i < src[row_i].count do
-      if src[row_i][element_i] == String
+      if src[row_i][element_i] == ""
         string_element = src[row_i][element_i]
       end 
         element_i += 1 
