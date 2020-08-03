@@ -15,5 +15,5 @@ def join_nested_strings(src)
     #nested_strings << string_element
     row_i += 1 
   end
-  nested_strings.join 
+  nested_strings 
 end 
