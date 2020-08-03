@@ -3,7 +3,7 @@ def join_nested_strings(src)
   
   row_i = 0
   while row_i < src.count do
-    string_element = string
+    #string_element = String
     element_i = 0 
     while element_i < src[row_i].count do
       if src[row_i][element_i].type? String
