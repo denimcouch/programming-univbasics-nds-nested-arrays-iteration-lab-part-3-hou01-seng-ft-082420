@@ -5,7 +5,7 @@ def join_nested_strings(src)
   while row_i < src.count do
     element_i = 0 
     while element_i < src[row_i].count do
-      if src[row_i][element_i] == String
+      if src[row_i][element_i] == "String"
         nested_strings << src[row_i][element_i]
       end 
         element_i += 1 
