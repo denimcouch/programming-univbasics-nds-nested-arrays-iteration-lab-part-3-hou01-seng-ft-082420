@@ -7,11 +7,12 @@ def join_nested_strings(src)
     element_i = 0 
     while element_i < src[row_i].count do
       if src[row_i][element_i].class? String
-        string_element = src[row_i][element_i]
+        #string_element = src[row_i][element_i]
+        nested_strings << src[row_i][element_i]
       end 
         element_i += 1 
     end
-    nested_strings << string_element
+    #nested_strings << string_element
     row_i += 1 
   end
   
